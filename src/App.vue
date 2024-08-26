@@ -13,7 +13,7 @@ import SiteFooter from './components/SiteFooter.vue'
           <div class="row g-0 align-items-center">
             <div class="col-md">
               <div class="card-body">
-                <p class="card-text">ID Progetto: 1</p>
+                <p class="card-text fs-4 text-primary bg-secondary">ID Progetto: 1</p>
                 <h5 class="card-title h1">
                   PIANTUMAZIONE DI BAMBÙ GIGANTE PER LA RIMOZIONE DI CO2 DALL’ATMOSFERA
                 </h5>
