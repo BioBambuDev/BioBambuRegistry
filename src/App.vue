@@ -13,7 +13,9 @@ import SiteFooter from './components/SiteFooter.vue'
           <div class="row g-0 align-items-center">
             <div class="col-md">
               <div class="card-body">
-                <p class="card-text fs-4 text-primary bg-secondary">ID Progetto: 1</p>
+                <p class="card-text fs-4 text-primary bg-secondary rounded ps-2 me-5">
+                  ID Progetto: 1
+                </p>
                 <h5 class="card-title h1">
                   PIANTUMAZIONE DI BAMBÙ GIGANTE PER LA RIMOZIONE DI CO2 DALL’ATMOSFERA
                 </h5>
@@ -103,7 +105,7 @@ import SiteFooter from './components/SiteFooter.vue'
                     Totale Crediti Emessi
                   </span>
                 </h3>
-                <h4 class="mt-3">84000 BioToken</h4>
+                <h5 class="mt-3">84000 BioToken</h5>
               </div>
             </div>
 
@@ -112,7 +114,7 @@ import SiteFooter from './components/SiteFooter.vue'
                 <h3 class="">
                   <span class="bg-secondary p-2 rounded fw-bold text-primary"> Settori </span>
                 </h3>
-                <h4 class="mt-3">Agricoltura / AFOLU (Agriculture, Forestry and Other Land Use)</h4>
+                <h5 class="mt-3">Agricoltura / AFOLU (Agriculture, Forestry and Other Land Use)</h5>
               </div>
               <div class="row mb-5">
                 <div class="col-12">
