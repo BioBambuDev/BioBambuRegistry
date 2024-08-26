@@ -165,7 +165,7 @@ import SiteHeader from './components/SiteHeader.vue'
         </div>
       </section>
 
-      <section id="data">
+      <section id="data" class="pt-5">
         <h2>
           <u><strong>Dati Tecnici</strong></u>
         </h2>
@@ -184,10 +184,67 @@ import SiteHeader from './components/SiteHeader.vue'
         </div>
       </section>
 
-      <section id="credits">
+      <section id="credits" class="pt-5">
         <h2>
           <u><strong>Crediti Carbonio</strong></u>
         </h2>
+
+        <div class="row mb-3">
+          <div class="col">
+            <h3 class="mt-4">
+              <span class="bg-secondary p-2 mb-4 rounded fw-bold text-primary">
+                Informazioni Generali
+              </span>
+            </h3>
+            <table class="table mt-3">
+              <thead>
+                <tr>
+                  <th class="col-6">Nome Progetto</th>
+                  <th class="col">Nit</th>
+                  <th class="col">Proponente del Progetto</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th class="row">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem repellat
+                    cumque ut doloremque molestiae eligendi enim nesciunt sapiente sunt illo?
+                  </th>
+                  <td>???</td>
+                  <td>Corte del Gallo s.r.l.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="row mb-5">
+          <div class="col mt-2">
+            <h3 class="mt-4">
+              <span class="bg-secondary p-2 mb-4 rounded fw-bold text-primary">
+                Totale Crediti
+              </span>
+            </h3>
+            <table class="table mt-3">
+              <thead>
+                <tr>
+                  <th scope="col">Emessi</th>
+                  <th scope="col">Tonnellate Convertite</th>
+                  <th scope="col">Ritirati</th>
+                  <th scope="col">Disponibili</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">84000</th>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>84000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
       </section>
     </main>
   </div>
