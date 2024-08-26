@@ -173,7 +173,7 @@ import SiteFooter from './components/SiteFooter.vue'
             <h3 class="mt-4">
               <span class="bg-secondary p-2 rounded fw-bold text-primary"> Posizione </span>
             </h3>
-            <img src="./assets/BambuMap.png" class="img-fluid rounded" alt="..." />
+            <img src="./assets/bambuMap.png" class="img-fluid rounded" alt="..." />
           </div>
         </div>
       </section>
