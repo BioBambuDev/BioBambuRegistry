@@ -4,7 +4,11 @@
       <div class="col text-primary">
         <h1>BioBambuRegistry</h1>
       </div>
-      <div class="col text-center">Torna a BioBambuItalia</div>
+      <div class="col text-center fs-5">
+        <a class="nav-link" href="https://www.biobambuzeroco2.it/benefici-ambientali"
+          >Torna a BioBambuItalia</a
+        >
+      </div>
     </div>
   </header>
 </template>

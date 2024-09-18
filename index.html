@@ -4,10 +4,18 @@
     <meta charset="UTF-8">
     <link rel="icon" href="/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://npmcdn.com/parse/dist/parse.min.js"></script>
     <title>BioBambu Registry</title>
   </head>
   <body>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
+    <script>
+        Parse.serverURL = 'https://parseapi.back4app.com'; // This is your Server URL
+        // Remember to inform BOTH the Back4App Application ID AND the JavaScript KEY
+        Parse.initialize( 'AoKCXHbyquKuZrdUZgrDt2nlLB1Px46MzmQkRS3l', // This is your Application ID
+                          'kzhEGNWv2YyzpFEmQQy5EvubmVj7coCHMNIkwu46' // This is your Javascript key
+                        );
+      </script>
   </body>
 </html>

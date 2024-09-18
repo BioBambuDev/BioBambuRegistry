@@ -3,4 +3,8 @@
 $primary: #1b3621;
 $secondary: #c0e9bb;
 
+.nav-link:hover {
+  text-decoration: underline !important;
+}
+
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
